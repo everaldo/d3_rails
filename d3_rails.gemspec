@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["han@logicallsat.com"]
   s.license     = 'MIT'
   s.homepage    = "https://github.com/logical42/d3_rails"
-  s.summary     = %q{D3 automated install for Rails 3.1+}
+  s.summary     = %q{D3 automated install for Rails 4.0+}
   s.description = %q{Gem installation of javascript framework for data visualization, D3}
 
   s.rubyforge_project = "d3_rails"
@@ -19,8 +19,8 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency "railties", ">= 3.1.0"
+  s.add_dependency "railties", "~> 4.0"
   s.add_development_dependency "bundler", '>= 1.0.0'
-  s.add_development_dependency "rails",   ">= 3.1"
+  s.add_development_dependency "rails",   "~> 4.0"
   s.add_development_dependency "pry"
 end

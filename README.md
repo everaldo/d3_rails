@@ -1,3 +1,10 @@
+## Rails
+
+Gem updated to work with Rails 4
+
+
+
+
 # D3_Rails
 ## Version 3.2.8 (of d3 in most current gem)
 
